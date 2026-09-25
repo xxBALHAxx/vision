@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/front/",
+      "statusCode": 302
+    }
+  ]
+}
