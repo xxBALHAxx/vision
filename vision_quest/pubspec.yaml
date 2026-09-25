@@ -1,0 +1,49 @@
+name: vision_quest
+description: Application de rééducation visuelle pour enfants - orthoptie gamifiée
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Animations & UI
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  animated_text_kit: ^4.2.2
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Audio
+  audioplayers: ^6.0.0
+  
+  # Sensors
+  sensors_plus: ^7.1.0
+  proximity_sensor: ^1.0.2        # Capteur de proximité natif
+  
+  # Notifications locales (pinned to 17.x to match current code API)
+  flutter_local_notifications: ^17.2.4
+  
+  # Vibration feedback
+  vibration: ^3.1.8
+  
+  # Icons
+  flutter_svg: ^2.0.9
+  
+  # Charts pour statistiques
+  fl_chart: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

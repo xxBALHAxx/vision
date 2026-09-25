@@ -1,0 +1,21 @@
+# Flutter / Dart
+vision_quest/.dart_tool/
+vision_quest/.flutter-plugins
+vision_quest/.flutter-plugins-dependencies
+vision_quest/.packages
+vision_quest/build/
+vision_quest/.idea/
+vision_quest/.metadata
+vision_quest/.fvm/
+vision_quest/.pub-cache/
+vision_quest/.pub/
+vision_quest/android/local.properties
+vision_quest/ios/Pods/
+vision_quest/ios/Flutter/Generated.xcconfig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
